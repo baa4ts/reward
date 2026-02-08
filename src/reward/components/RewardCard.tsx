@@ -21,7 +21,7 @@ export const RewardCard: FC<Props> = ({ reward }) => (
                 loading="lazy"
                 className="max-w-full max-h-full object-contain"
             />
-            <Badge variant="secondary" className="absolute top-2 right-2 font-mono">
+            <Badge variant="default" className="absolute top-2 right-2 font-mono">
                 {reward.category}
             </Badge>
         </CardContent>
