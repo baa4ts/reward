@@ -130,6 +130,10 @@
   .custom-scale {
     @apply transform transition-transform duration-[300ms] hover:scale-105 hover:cursor-pointer
   }
+
+  .custom-scale2 {
+    @apply transform transition-transform duration-[300ms] hover:scale-102 hover:cursor-pointer
+  }
 }
 
 @keyframes fadeIn {
