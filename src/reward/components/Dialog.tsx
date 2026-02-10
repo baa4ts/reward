@@ -20,8 +20,8 @@ export const Dialog: FC<Props> = ({ amount, icon, link, }) => {
     return (
         <AlertDialog>
             <AlertDialogTrigger asChild>
-                <Button className="w-full font-semibold">
-                    Reclamar <span className="opacity-70 custom-scale">(x{amount})</span>
+                <Button className="w-full font-semibold custom-scale">
+                    Reclamar <span className="opacity-70">(x{amount})</span>
                 </Button>
             </AlertDialogTrigger>
 
