@@ -126,16 +126,34 @@
   .custom-width {
     @apply w-full md:w-160 lg:w-212.5;
   }
+
+  .custom-scale {
+    @apply transform transition-transform duration-[300ms] hover:scale-105 hover:cursor-pointer
+  }
 }
 
 @keyframes fadeIn {
-  0% { opacity: 0; transform: translateY(10px); }
-  100% { opacity: 1; transform: translateY(0); }
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 @keyframes fadeOut {
-  0% { opacity: 1; transform: translateY(0); }
-  100% { opacity: 0; transform: translateY(10px); }
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
 }
 
 .animate-fadeIn {
