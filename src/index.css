@@ -146,3 +146,12 @@
   animation: fadeOut 900ms ease-out forwards;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}

@@ -4,6 +4,7 @@ import { Header } from "./components/Header";
 import RewardsHeader from "./components/RewardsHeader";
 import { CardGrid } from "./components/CardGrid";
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools'
+import { Hero } from "./components/Hero";
 
 
 
@@ -16,6 +17,7 @@ export const App = () => {
 
       {/* Tienen memo */}
       <Header />
+      <Hero />
       <RewardsHeader />
 
 
